@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/assets/icon.png">
+    <title>WeatherIT</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <h3>Weather</h3>
+            <img src="/assets/cloud_rain.png">
+            <h4>Pune, Maharsthra</h4>
+            <h3 class="temp">32°</h3>
+            <h5 class="air">117 AQI </h5>
+            <h5 class="wind">11 km/h</h5>
+        </div>
+
+    </div>
+   
+</body>
+</html>
+
+<style>
+
+    
+    .wind {
+        margin-left: 70%;
+        font-family: monospace;
+        margin-top: -12.5%;
+        font-size: 1em;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+        color: rgba(255, 255, 255, 0.541);
+    }
+    .air {
+        margin-right: 70%;
+        font-family: monospace;
+        margin-top: 22.5%;
+        font-size: 1em;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+        color: rgba(255, 255, 255, 0.541);
+    }
+    .temp {
+        font-family: monospace;
+        margin-top: -5%;
+        font-size: 2em;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+        color: white;
+    }
+    h4 {
+        font-family: monospace;
+        font-size: 1.2em;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+        color: white;
+    }
+    img {
+        height: 40%;
+        width: 55%;
+    }
+    h3 {
+        font-family: monospace;
+        font-size: 1.5em;
+        text-shadow: 2px 2px rgba(0, 0, 0, 0.178);
+        color: white;
+    }
+    body {
+        background-color: #44caff;
+        overflow: hidden;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-wrap: wrap;
+        flex-flow: row;
+        
+    }
+    .card {
+        text-align: center;
+        height: 60%;
+        width: 45vb;
+        margin: auto;
+        background: rgba( 125, 125, 125, 0.35 );
+        box-shadow: 0 8px 32px 0 rgba(156, 240, 255, 0.37);
+        backdrop-filter: blur( 3.5px );
+        -webkit-backdrop-filter: blur( 3.5px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+   
+</style>
